@@ -1,18 +1,14 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+cat > .gitignore << 'EOF'
+# Isikukoode sisaldavad andmefailid - ei tohi kunagi commit'ida
+*.xlsx
+*.xls
+*.xlsm
+*.csv
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# OS- ja editori prügi
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+EOF
