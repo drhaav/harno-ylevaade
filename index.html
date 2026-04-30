@@ -22,7 +22,7 @@ Update checklist:
     --color-border-info: #378ADD;
     --border-radius-md: 8px;
     --border-radius-lg: 12px;
-    --font-sans: 'DM Sans', system-ui, sans-serif;
+    --font-sans: 'Montserrat', system-ui, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -214,8 +214,6 @@ Update checklist:
     .map-legend { gap: 0.65rem; font-size: 11px; }
   }
 </style>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
-
 <!-- ============================================================
      //kood brand overlay (thin)
      - Token overrides only — original structure untouched
@@ -1054,7 +1052,7 @@ const valueLabelsPlugin = {
     const minPercent = pluginOpts.minPercent != null ? pluginOpts.minPercent : 4;  // doughnut threshold (% of total)
     const color = pluginOpts.color || '#1a1a18';
     const fontSize = pluginOpts.fontSize || 11;
-    const fontFamily = "'DM Sans', system-ui, sans-serif";
+    const fontFamily = "'Montserrat', system-ui, sans-serif";
 
     chart.data.datasets.forEach((dataset, datasetIndex) => {
       const meta = chart.getDatasetMeta(datasetIndex);
